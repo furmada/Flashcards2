@@ -1,0 +1,15 @@
+C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bin\Release\resources.pri
+C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bin\Release\AppxManifest.xml
+C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bin\Release\Flashcards2.build.appxrecipe
+C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bld\Release\priconfig.xml
+C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bld\Release\priconfig.xml.intermediate
+C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bld\Release\layout.resfiles
+C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bld\Release\layout.resfiles.intermediate
+C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bld\Release\resources.resfiles
+C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bld\Release\resources.resfiles.intermediate
+C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bld\Release\pri.resfiles
+C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bld\Release\pri.resfiles.intermediate
+C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bld\Release\qualifiers.txt
+C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bld\Release\qualifiers.txt.intermediate
+C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bld\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bld\Release\ProjectArchitectures.txt

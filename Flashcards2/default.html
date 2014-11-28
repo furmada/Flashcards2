@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Flashcards</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- Flashcards2 references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <div id="cardHolder">
+        
+    </div>
+    <div id="bottomNav">
+        <h1>Flashcards</h1>
+        <button id="addCardBtn" onclick="showInput('card', 'Add a new card')">Add Card</button>
+        <button id="reloadBtn" onclick="reload()">Reload</button>
+        <button id="studyBtn" onclick="studyMode()">Study Mode</button>
+        <button id="newCatBtn" onclick="showInput('category', 'Add a new category')">New Category</button>
+        <button id="delCatBtn" onclick="categoryConfirmRemove(this)">Remove Category</button>
+        <select id="catSelect" onchange="onCategoryChange()">
+        </select>
+    </div>
+    <div id="inputAsk" class="hidden">
+        <h2 id="inputTitle"></h2>
+        <input type="text" id="inputSingleLine" style="width: 80%;" /><br />
+        <textarea id="inputTxt1" style="width:80%; height:35%;"></textarea><br />
+        <textarea id="inputTxt2" style="width:80%; height:35%;"></textarea><br />
+        <button id="inputSubmit" onclick="">OK</button>
+        <button id="inputCancel" onclick="hideInput()">Cancel</button>
+    </div>
+    <div id="studyMode" class="hidden">
+        <h1 id="studyTitle"></h1>
+        <hr />
+        <div id="studyCardHolder">
+
+        </div>
+        <div id="studyButtons">
+            <h2 id="studyQuestion">Do you know this?</h2><br />
+            <button id="studyKnow" onclick="studyFlip(true)">Yes</button>
+            <button id="studyForgot" onclick="studyFlip(false)">No</button>
+            <button id="studyNext" onclick="studyNext()">Next</button>
+        </div>
+    </div>
+</body>
+</html>

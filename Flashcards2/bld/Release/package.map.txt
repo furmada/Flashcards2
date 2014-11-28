@@ -1,0 +1,10 @@
+[Files]
+"C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bin\Release\AppxManifest.xml" "AppxManifest.xml"
+"C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\default.html" "default.html"
+"C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\images\logo.scale-100.png" "images\logo.scale-100.png"
+"C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\images\smalllogo.scale-100.png" "images\smalllogo.scale-100.png"
+"C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\images\splashscreen.scale-100.png" "images\splashscreen.scale-100.png"
+"C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\images\storelogo.scale-100.png" "images\storelogo.scale-100.png"
+"C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\js\default.js" "js\default.js"
+"C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\css\default.css" "css\default.css"
+"C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bin\Release\resources.pri" "resources.pri"

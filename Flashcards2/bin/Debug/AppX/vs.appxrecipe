@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SURFACE</Machine>
+    <WindowsUser>Adam</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>7874c4a5-2e54-4532-b302-21b68b6a6f9d</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>8F096E9DA056560D556BB9C752962357A5C9EF560B260D5F383FB1098108D2A4</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>7874c4a5-2e54-4532-b302-21b68b6a6f9d_1.0.0.0_neutral__7npqabcqw1kgm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>7874c4a5-2e54-4532-b302-21b68b6a6f9d_7npqabcqw1kgm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>7874c4a5-2e54-4532-b302-21b68b6a6f9d</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Adam</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-28T22:05:28.287</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2014-11-28T21:08:24.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-28T21:58:50.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-28T21:59:33.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-28T22:01:43.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-28T22:00:11.472</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2014-11-28T21:24:33.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2014-11-28T21:04:31.877</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-28T22:05:28.131</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
