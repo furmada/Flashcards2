@@ -6,27 +6,27 @@
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <PackageIdentityName>7874c4a5-2e54-4532-b302-21b68b6a6f9d</PackageIdentityName>
+    <PackageIdentityName>40969furmada.OpenFlashcards</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bld\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>8F096E9DA056560D556BB9C752962357A5C9EF560B260D5F383FB1098108D2A4</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>7874c4a5-2e54-4532-b302-21b68b6a6f9d_1.0.0.0_neutral__7npqabcqw1kgm</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>7874c4a5-2e54-4532-b302-21b68b6a6f9d_7npqabcqw1kgm!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>7874c4a5-2e54-4532-b302-21b68b6a6f9d</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=Adam</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredManifestChecksum>82AD4AF3A057B9937317778392881B0FA5F735EAC49E4698F010AB2FF56D7CD7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>40969furmada.OpenFlashcards_1.1.0.1_neutral__zsyhmrb2982bg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>40969furmada.OpenFlashcards_zsyhmrb2982bg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>40969furmada.OpenFlashcards</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=4933A982-6D4B-4019-A967-647980B50042</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.1</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-28T22:05:28.287</Modified>
+      <Modified>2014-12-01T19:51:44.600</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2014-11-28T21:08:24.344</Modified>
+      <Modified>2014-12-03T15:25:27.141</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
@@ -50,15 +50,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-11-28T21:24:33.894</Modified>
+      <Modified>2014-12-03T15:26:19.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2014-11-28T21:04:31.877</Modified>
+      <Modified>2014-12-01T01:25:26.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-11-28T22:05:28.131</Modified>
+      <Modified>2014-12-01T19:51:44.400</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

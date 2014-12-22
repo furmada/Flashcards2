@@ -7,10 +7,10 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="7874c4a5-2e54-4532-b302-21b68b6a6f9d" Version="1.0.0.0" Publisher="CN=Adam" ProcessorArchitecture="neutral" />
+  <Identity Name="40969furmada.OpenFlashcards" Version="1.1.0.1" Publisher="CN=4933A982-6D4B-4019-A967-647980B50042" ProcessorArchitecture="neutral" />
   <Properties>
-    <DisplayName>OpenFlashcards</DisplayName>
-    <PublisherDisplayName>Adam Furman</PublisherDisplayName>
+    <DisplayName>Open Flashcards</DisplayName>
+    <PublisherDisplayName>furmada</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
   <Prerequisites>

@@ -21,6 +21,80 @@ function dialogInterceptor(title, msg, buttons) {
     return dialog;
 }
 
+function exportCategoryToFile() {
+    var fws = currentCategory+"!";
+    for (c in categories) {
+        if (categories[c][0] == currentCategory) {
+            for (crd in categories[c][1]) {
+                fws += categories[c][1][crd][0] + ":" + categories[c][1][crd][1] + ";";
+            }
+        }
+    }
+    var savePicker = new Windows.Storage.Pickers.FileSavePicker();
+    savePicker.suggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.documentsLibrary;
+    savePicker.fileTypeChoices.insert("Open Flashcards File", [".ofc"]);
+    savePicker.suggestedFileName = "OpenFlashcards-" + currentCategory;
+    savePicker.pickSaveFileAsync().then(function (file) {
+        if (file) {
+            Windows.Storage.CachedFileManager.deferUpdates(file);
+            Windows.Storage.FileIO.writeTextAsync(file, fws).done(function () {
+                Windows.Storage.CachedFileManager.completeUpdatesAsync(file).done(function (updateStatus) {
+                    if (updateStatus === Windows.Storage.Provider.FileUpdateStatus.complete) {
+                        WinJS.log && WinJS.log("File " + file.name + " was saved.", "sample", "status");
+                    } else {
+                        WinJS.log && WinJS.log("File " + file.name + " couldn't be saved.", "sample", "status");
+                    }
+                });
+            });
+        } else {
+            WinJS.log && WinJS.log("Operation cancelled.", "sample", "status");
+        }
+    });
+}
+
+function importCategoryFromFile() {
+    var openPicker = new Windows.Storage.Pickers.FileOpenPicker();
+    openPicker.viewMode = Windows.Storage.Pickers.PickerViewMode.list;
+    openPicker.suggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.documentsLibrary;
+    openPicker.fileTypeFilter.replaceAll([".ofc", ".txt"]);
+    openPicker.pickSingleFileAsync().then(function (file) {
+        if (file) {
+            Windows.Storage.FileIO.readTextAsync(file).done(function (data) {
+                var p = -1;
+                var catName = data.split("!", 2)[0];
+                var fCards = data.split("!", 2)[1];
+                var clist = [];
+                var splitcat = fCards.split(";");
+                for (c in splitcat) {
+                    var ccrd = splitcat[c];
+                    var splitcrd = ccrd.split(":");
+                    if (splitcrd.length <= 1) {
+                        continue;
+                    }
+                    clist.push([splitcrd[0], splitcrd[1]]);
+                }
+                console.log(currentCategory);
+                for (c in categories) {
+                    if (categories[c][0] == catName) {
+                        console.log("Found: "+categories[c][0])
+                        p = c;
+                        break;
+                    }
+                }
+                if (p == -1) {
+                    categories.push([catName, clist]);
+                    addCategoriesToSelector();
+                }
+                else {
+                    categories[p][1] = clist;
+                }
+                currentCategory = catName;
+                processCards();
+            });
+        }
+    });
+}
+
 function showInput(mode, title) {
     document.getElementById("inputAsk").setAttribute("class", "visible");
     document.getElementById("inputTitle").innerHTML = window.toStaticHTML(title);
@@ -384,10 +458,24 @@ function processCards(category) {
         // saved and restored across suspension. If you need to complete an
         // asynchronous operation before your application is suspended, call
         // args.setPromise().
-        console.log("Suspending");
+        args.setPromise(new WinJS.Promise(function (){
+            console.log("Suspending");
+            categoriesToLocal();
+            cardsToLocal();
+        }));
+    };
+
+    WinJS.Application.onsettings = function (e) {
+        e.detail.applicationcommands = {
+            "Settings": { title: "Settings" }
+        };
+        WinJS.UI.SettingsFlyout.populateSettings(e);
+    };
+    app.onunload = function () {
+        console.log("Unloading");
         categoriesToLocal();
         cardsToLocal();
-    };
+    }
 
     app.start();
 })();

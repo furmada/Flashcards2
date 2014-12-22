@@ -48,5 +48,29 @@
             <button id="studyNext" onclick="studyNext()">Next</button>
         </div>
     </div>
+    <div aria-label="App Settings Flyout" data-win-control="WinJS.UI.SettingsFlyout" data-win-options="{settingsCommandId:'Settings', width:'narrow'}">
+        <!-- Add the background color matching you app tile color to the Settings flyout header. -->
+        <!-- Use add the win-ui-dark class if the background color requires a white text  -->
+        <!-- Add the app small logo to the Settings flyout header                         -->
+        <div class="win-header win-ui-light" style="background-color: #4646ad;">
+            <button class="win-backbutton" onclick="WinJS.UI.SettingsFlyout.show()" type="button"></button>
+            <div class="win-label">Flashcards</div>
+            <img alt="smalllogo" src="/images/smalllogo.scale-100.png" style="height: 30px; width: 30px; position: absolute; right: 40px;" />
+        </div>
+        <div class="win-content">
+            <h3>Export and import categories below.</h3>
+            <p>Existing categories will be replaced from the file!</p>
+            <br />
+            <center>
+            <button id="settingsExport" onclick="exportCategoryToFile()">Export Current Category</button><br /><br />
+            <button id="settingsImport" onclick="importCategoryFromFile()">Import Category</button>
+            </center>
+            <br />
+            <h3>Debug</h3><br />
+            <button id="settingsSaveNow" onclick="categoriesToLocal(); cardsToLocal();">Save Cards Now</button><br /><br />
+            <button id="settingsLoadNow" onclick="localToCategories();">Load Cards Now</button><br /><br />
+        </div>
+    </div>
+
 </body>
 </html>

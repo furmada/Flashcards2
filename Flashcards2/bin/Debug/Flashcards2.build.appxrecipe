@@ -6,7 +6,7 @@
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <PackageIdentityName>7874c4a5-2e54-4532-b302-21b68b6a6f9d</PackageIdentityName>
+    <PackageIdentityName>40969furmada.OpenFlashcards</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Adam\documents\visual studio 2013\Projects\Flashcards2\Flashcards2\bld\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
